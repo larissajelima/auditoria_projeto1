@@ -26,5 +26,10 @@ O sistema gera automaticamente:
 - Análises agregadas por fornecedor e departamento
 - Relatório executivo consolidado
 
+## 📦 Instalação
+```bash
+pip install -r requirements.txt
+```
+
 ## 👨‍💻 Autor
 Larissa Lima - Projeto desenvolvido como parte do aprendizado em Ciência de Dados aplicada à Auditoria
