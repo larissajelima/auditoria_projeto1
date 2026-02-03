@@ -119,24 +119,4 @@ with pd.ExcelWriter('relatorio_auditoria_completo.xlsx') as writer:
 
 print("✅ Relatório 'relatorio_auditoria_completo.xlsx' gerado com sucesso!")
 print("\n🎉 Análise concluída!")
-```
 
-Execute: `python auditoria_pagamentos.py`
-
----
-
-## 📝 ESTRUTURA DO REPOSITÓRIO GITHUB
-```
-auditoria-pagamentos-projeto1/
-│
-├── README.md
-├── dados/
-│   └── pagamentos_fornecedores.xlsx
-├── scripts/
-│   ├── criar_dados.py
-│   └── auditoria_pagamentos.py
-├── resultados/
-│   ├── pagamentos_duplicados.xlsx
-│   ├── pagamentos_alto_valor.xlsx
-│   └── relatorio_auditoria_completo.xlsx
-└── requirements.txt
